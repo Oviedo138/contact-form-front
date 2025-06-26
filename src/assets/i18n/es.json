@@ -1,0 +1,507 @@
+{
+  "NAVBAR": {
+    "ROUTES": {
+      "HOME": {
+        "name": "Inicio",
+        "route": "home",
+        "goto": "nav"
+      },
+      "FACILITIES": {
+        "name": "Instalaciones",
+        "route": "facilities",
+        "goto": "nav"
+      },
+      "CANCUN": {
+        "name": "Cancún",
+        "route": "cancun",
+        "goto": "nav"
+      },
+      "APC": {
+        "name": "Alianza Punta Cancún",
+        "route": "alianza",
+        "goto": "nav"
+      },
+      "CANCUN-CENTER": {
+        "name": "Fundación Contact Front",
+        "route": "foundation",
+        "goto": "nav"
+      },
+      "CONTACT": {
+        "name": "Contacto",
+        "route": "contact",
+        "goto": "nav"
+      }
+    },
+    "BUTTON": "COTIZAR"
+  },
+  "HOME": {
+    "EXTRAORDINARY": {
+      "TITLE": "MUESTRA LO EXTRAORDINARIO",
+      "CARD1": {
+        "TITLE": "Ubicación Privilegiada",
+        "INFO": "A tan sólo 20 minutos del Aeropuerto Internacional de Cancún, estamos en el corazón de la Zona Hotelera",
+        "BUTTON": "Encuéntranos en google maps ",
+        "ROUTE": ""
+      },
+      "CARD2": {
+        "TITLE": "Más de 14,200 m2 para tu evento",
+        "INFO": "4 espaciosos niveles, 10 salones divisibles hasta en 36 secciones cada uno. Echa un vistazo a nuestras instalaciones",
+        "BUTTON": "Ver nuestros espacios",
+        "ROUTE": ""
+      },
+      "CARD3": {
+        "TITLE": "El Recinto Ideal",
+        "INFO": "Contact Front se ha ganado una reputación como uno de los principales recintos para eventos en el Caribe Mexicano",
+        "BUTTON": "Ponerse en contacto",
+        "ROUTE": ""
+      }
+    },
+    "SERVICES": {
+      "TITLE": "Servicios",
+      "SUB": "Eleva tu próximo evento a algo extraordinario.",
+      "INFO": "Además de proporcionarte el espacio perfecto, también contamos con diversos servicios que harán tu evento memorable.",
+      "CARD1": "Branding",
+      "CARD2": "Audiovisual",
+      "CARD3": "Catering",
+      "CARD4": "Internet"
+    },
+    "CELEBRATIONS": {
+      "TITLE": "Celebraciones",
+      "SUB": "Cotiza el tipo de evento ideal para ti",
+      "INFO": "Contact Front es un recinto que cuenta con instalaciones modernas y versátiles que pueden adaptarse a las necesidades de cualquier evento.",
+      "BUTTON": "Saber más",
+      "CARDS": [
+        {
+          "img": "/assets/images/home/cele/gra.webp",
+          "name": "Graduaciones"
+        },
+        {
+          "img": "/assets/images/home/cele/bodas.webp",
+          "name": "Bodas"
+        },
+        {
+          "img": "/assets/images/home/cele/year.webp",
+          "name": "Posadas"
+        },
+        {
+          "img": "/assets/images/home/cele/party.webp",
+          "name": "XV años"
+        }
+      ]
+    },
+    "HOTELS": {
+      "TITLE": "Hospedaje",
+      "INFO": "Hotel Aloft Cancun es un concepto moderno, novedoso y divertido. Con nuestro diseño inspirado en los “lofts” y donde la energía fluye, podrás celebrar tu estilo en la amplitud de un espacio sin paredes ni límites. Descubre por qué todo el mundo habla de Aloft Hotels y vive una nueva experiencia de viajes. Aloft Cancun tiene 177 habitaciones de inspiración urbana, espaciosas y listas para recibirte durante tu próximo evento en Contact Front",
+      "BUTTON": "Reserva Ahora"
+    },
+    "APC": {
+      "TITLE": "Alianza Punta Cancun. Innovación, profesionalismo y una ubicación privilegiada para ofrecer experiencias únicas e inolvidables.",
+      "INFO": "Alianza Punta Cancún es un equipo de profesionales en la industria de reuniones, hospitalidad y soluciones, listos para elevar tu evento de lo ordinario a lo extraordinario. Desde el concepto de “Citywide Meetings”, la experiencia y compromiso ha permitido demostrar un servicio excepcional, fusionando innovación y profesionalismo para garantizar el éxito de cada evento.",
+      "BUTTON": "Descubrir más"
+    },
+    "TITLES": {
+      "TITLE-VIRTUAL": "Inspección Virtual",
+      "TITLE-MAPS": "Encuéntranos en Google Maps",
+      "TITLE-SPACES": "Nuestros espacios",
+      "PLACEHOLDER-SELECT": "Selecciona un nivel"
+    },
+    "FOUNDATION": {
+      "TITLE": "Fundación Contact Front",
+      "INFO": "Ayudar nos hace más grandes. Contact Front se preocupa por la comunidad de Quintana Roo, es por ello que desde nuestra fundación, hemos brindado apoyo a más de 50 comunidades en situación de emergencia, haciendo brigadas de salud, impulso al comercio de artesanías locales, limpieza de playas y un programa de impulso al consumo local en tiempos difíciles.",
+      "BUTTON": "Conoce más"
+    },
+    "DYNAMIC": {
+      "DESTINATION": {
+        "back": "/assets/images/home/caribe-back.webp",
+        "title": "Destino",
+        "logo": "/assets/images/logos/caribe.png",
+        "info": "El Caribe mexicano es conocido por sus playas de arena blanca, aguas turquesas y una rica cultura. Cancún, ubicado en el suroeste de México, es el destino turístico por excelencia y entrada al mundo maya, famoso por amplia oferta de hospedaje, conectividad, vida nocturna y una amplia variedad de actividades acuáticas y de entretenimiento. Cancún ofrece el escenario perfecto para todo tipo de eventos, desde conferencias y convenciones hasta bodas y conciertos.",
+        "button": "Conoce más",
+        "image1": "/assets/images/home/caribe-1.webp",
+        "image2": "/assets/images/home/caribe-2.webp"
+      },
+      "WHOAREWE": {
+        "back": "/assets/images/home/who-back.webp",
+        "title": "Quienes somos",
+        "info": "Contact Front es el centro de convenciones de clase mundial ubicado en el corazón de la Zona Hotelera de Cancún, diseñado para albergar una amplia variedad de eventos, desde conferencias y exposiciones hasta congresos y convenciones.",
+        "info2": "Además de su infraestructura de vanguardia, Contact Front se destaca por su ubicación estratégica cerca de hoteles, restaurantes y atracciones turísticas, lo que lo convierte en el recinto ideal tanto para los participantes como para los organizadores.",
+        "image1": "/assets/images/home/who-1.webp",
+        "image2": "/assets/images/home/who-2.webp"
+      }
+    },
+    "SPACES": [
+      {
+        "name": "Planta Baja",
+        "sub": "La favorita de grandes expositores",
+        "button": "Descargar planos",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fespa%C3%B1ol%2FPlanta%20baja.pdf?alt=media&token=4e458c1d-088e-4220-ab66-9745aeb44bb2",
+        "images": [
+          "/assets/images/home/spaces/level-0-1.webp",
+          "/assets/images/home/spaces/level-0-2.webp",
+          "/assets/images/home/spaces/level-0-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Área de exhibición",
+            "list": [
+              "3,939 m2",
+              "Altura máxima permitida: 3 m",
+              "Carga dinámica: 2,000 kg/m2"
+            ]
+          },
+          {
+            "title": "Auditorio",
+            "list": [
+              "352 m2",
+              "Altura máxima permitida: 4.80 m",
+              "Carga dinámica: 400 kg/m2",
+              "Frente: 19 m",
+              "Fondo: 19 m"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nivel 01",
+        "sub": "Ideal para conferencias y talleres",
+        "button": "Descargar planos",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fespa%C3%B1ol%2FBlue%20prints%20Nivel%201.pdf?alt=media&token=783156a4-bea7-4930-b003-d03a180c4d6d",
+        "images": [
+          "/assets/images/home/spaces/level-1-1.webp",
+          "/assets/images/home/spaces/level-1-2.webp",
+          "/assets/images/home/spaces/level-1-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Área Comercial",
+            "list": [
+              "597 m",
+              "Altura máxima permitida: 3 m",
+              "Carga dinámica: 400 kg/m"
+            ]
+          },
+          {
+            "title": "Salón Costa Maya",
+            "list": [
+              "870 m",
+              "Divisible hasta en 5 secciones y 1 foyer interior",
+              "Altura máxima permitida: 3.2 m",
+              "Carga dinámica: 400 kg/m",
+              "Sonomuros",
+              "Frente: 29 m",
+              "Fondo: 30 m"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nivel 02",
+        "sub": "Uno de los preferidos para eventos sociales, conferencias, congresos y convenciones",
+        "button": "Descargar planos",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fespa%C3%B1ol%2FBlue%20prints%20Nivel%202.pdf?alt=media&token=e2be1027-e81b-4e06-9d09-65de4ab7d0bb",
+        "images": [
+          "/assets/images/home/spaces/level-2-1.webp",
+          "/assets/images/home/spaces/level-2-2.webp",
+          "/assets/images/home/spaces/level-2-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Salón Isla Mujeres",
+            "list": [
+              "171 m | frente: 20 m | fondo: 8 m",
+              "Divisible hasta en 4 secciones",
+              "Altura máxima permitida: 2.80 m",
+              "Carga dinámica: 400 kg/m",
+              "Sonomuros"
+            ]
+          },
+          {
+            "title": "Salón Cobá",
+            "list": [
+              "244 m | frente: 24 m | fondo: 10 m",
+              "Altura máxima permitida: 3.20 m",
+              "Carga dinámica: 400 kg/m"
+            ]
+          },
+          {
+            "title": "Sala Contoy",
+            "list": [
+              "348 m | frente: 21 m | fondo: 16 m",
+              "Herradura 30 pax",
+              "Oficina privada y sala de espera",
+              "Baño privado"
+            ]
+          },
+          {
+            "title": "Terraza Akumal",
+            "list": [
+              "706 m | frente: 72 m | fondo: 10 m",
+              "Altura máxima permitida: N/A",
+              "Carga dinámica: 400 kg/m"
+            ]
+          },
+          {
+            "title": "Salón Cozumel",
+            "list": [
+              "1,296 m | frente: 36 m | fondo: 36 m",
+              "Divisible hasta en 5 secciones y 1 foyer",
+              "Altura máxima permitida: 3.7 m",
+              "Carga dinámica: 400 kg/m",
+              "Sonomuros"
+            ]
+          },
+          {
+            "title": "Salón Xcaret",
+            "list": [
+              "200 m | frente: 21 m | fondo: 10 m",
+              "Divisible hasta en 4 secciones",
+              "Altura máxima permitida: 2.80 m",
+              "Carga dinámica: 400 kg/m",
+              "Sonomuros"
+            ]
+          },
+          {
+            "title": "Salón Tulúm",
+            "list": [
+              "181 m | frente: 19 m | fondo: 10 m",
+              "Divisible hasta en 4 secciones",
+              "Altura máxima permitida: 2.80 m",
+              "Carga dinámica: 400 kg/m",
+              "Sonomuros"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nivel 03",
+        "sub": "Un foyer multiusos y el salón más grande de todo el recinto",
+        "button": "Descargar planos",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fespa%C3%B1ol%2FBlue%20prints%20Nivel%203.pdf?alt=media&token=04cbce44-b751-4453-aabe-926584899f01",
+        "images": [
+          "/assets/images/home/spaces/level-3-1.webp",
+          "/assets/images/home/spaces/level-3-2.webp",
+          "/assets/images/home/spaces/level-3-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Gran Cancún",
+            "list": [
+              "2,658 m| frente: 57 m | fondo: 47 m",
+              "Divisible hasta en 5 secciones y 1 foyer",
+              "- Altura máxima permitida: 8.6 m",
+              "Carga dinámica: 400 kg/m",
+              "Sonomuros"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "FACILITIES": {
+    "BANNER": {
+      "TITLE": "Espacios y Capacidades",
+      "INFO": "Contact Front cuenta con 14,200 m2 (152,847 ft2) de espacio para eventos; 10 salones divisibles hasta en 36 break-out rooms, terraza para eventos al aire libre y área de exposición con auditorio, ¡explora nuestros 4 niveles!"
+    },
+    "LEVELS": {
+      "GROUND": "Planta Baja",
+      "LEVEL-1": "Nivel 01",
+      "LEVEL-2": "Nivel 02",
+      "LEVEL-3": "Nivel 03"
+    },
+    "IMAGE": "/assets/images/facil/tables/capacidades.png",
+    "TABLES": {
+      "capacity": {
+        "name": "Tabla de Capacidades",
+        "title-table": "Capacities",
+        "img": "/assets/images/facil/table.webp",
+        "header": "Descargar",
+        "yes": "Sí",
+        "no": "No",
+        "alert": "¿Descargar la \"Tabla de Capacidades\"?",
+        "download": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/zips%2Fcapacidades.zip?alt=media&token=7b463fd8-fd05-40b5-8d69-b7f07668ed37"
+      },
+      "gallery": {
+        "name": "Galería",
+        "title-table": "Gallery",
+        "img": "/assets/images/facil/table.webp",
+        "header": "Descargar",
+        "yes": "Sí",
+        "no": "No",
+        "alert": "¿Descargar la \"Galería de los espacios\"?",
+        "download": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/zips%2FNiveles%20y%20salones.zip?alt=media&token=7de1ddd2-e102-4f31-8df0-8c1285c7bd06"
+      },
+      "floor": {
+        "name": "Planos",
+        "title-table": "Floor plans",
+        "img": "/assets/images/facil/table.webp",
+        "header": "Descargar",
+        "yes": "Sí",
+        "no": "No",
+        "alert": "¿Descargar los \"Planos\"?",
+        "download": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fespa%C3%B1ol%2FPlanos-CancunCenter.zip?alt=media&token=d3771530-8d30-4848-b48d-bb3c0bad0f69"
+      }
+    },
+    "IMAGES": [
+      "/assets/images/facil/baja.webp",
+      "/assets/images/facil/level1.webp",
+      "/assets/images/facil/level2.webp",
+      "/assets/images/facil/level3.webp"
+    ]
+  },
+  "CANCUN": {
+    "BANNER": {
+      "TITLE": "Reinventando los Eventos: Cancún, un Destino de Clase Mundial",
+      "INFO": "Sus playas de arena blanca y aguas cristalinas del Mar Caribe han convertido a Cancún en uno de los mejores destinos del mundo. Con una amplia gama de hoteles, restaurantes, centros comerciales y actividades recreativas, este destino satisface las necesidades de los visitantes más exigentes. Además, su excelente conectividad, tanto a nivel nacional como internacional, lo convierte en un destino accesible y conveniente para viajeros de todo el mundo.",
+      "BUTTON": "Conoce más del destino"
+    },
+    "INFRASTRUCTURE": {
+      "TITLE": "Infraestructura",
+      "INFO": "Con más de 31 millones de visitantes, Cancún ofrece más de 45 mil habitaciones hoteleras distribuidas en más de 200 hoteles por toda la zona, adicional a las inversiones en movilidad de los principales puntos de la ciudad, Cancún se mantiene como un destino de clase mundial, diseñado para ofrecer a los visitantes una experiencia cómoda durante su estancia."
+    },
+    "TOURISM": {
+      "TITLE": "Oferta Turística",
+      "INFO": "La oferta turística de Cancún es incomparable en su variedad y calidad, ofreciendo una combinación única de belleza natural, historia y cultura, aventura en la naturaleza y entretenimiento nocturno. Con tantas opciones emocionantes disponibles, Cancún es verdaderamente un destino que tiene algo especial para todos los viajeros."
+    },
+    "CONNECTIVITY": {
+      "TITLE": "Conectividad",
+      "INFO": "El Aeropuerto Internacional de Cancún (CUN) es la puerta de entrada a la región del Caribe mexicano. Conocido por su moderna infraestructura y amplia oferta de servicios, el aeropuerto ofrece conexiones directas con más de 130 destinos en el mundo. ",
+      "BUTTON": "Ver más",
+      "ROUTE": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/connectivity%2FConectividad%20ESP.pdf?alt=media&token=a2192f69-13f6-4470-9b5d-c9d7a4570a40"
+    },
+    "VISITING": {
+      "title": "Visitar Cancún es siempre una apuesta segura",
+      "name": "Cancún",
+      "info": "Cancún no solo cumple, sino que supera todas las expectativas de sus visitantes, desde sus playas tropicales hasta sus majestuosas selvas, sus encantadoras localidades hasta sus modernas metrópolis, y desde sus delicias gastronómicas hasta experiencias culinarias de alta gama. La emblemática hospitalidad mexicana, la exquisita gastronomía local, los lujosos spas, los impresionantes sitios arqueológicos y sus paradisíacas playas son lo que más extrañan quienes han visitado Cancún.",
+      "img": "/assets/images/cancun/cancun.webp"
+    },
+    "TITLE-MAP": "El lugar ideal para combinar negocios y placer."
+  },
+  "APC": {
+    "BANNER": {
+      "SUBTITLE": "Colaboración de Éxito",
+      "TITLE": "Contact Front y Alianza Punta Cancún",
+      "INFO": "Explora cómo nuestra colaboración exclusiva ofrece soluciones integrales para eventos inolvidables en Cancún.",
+      "BUTTON": "Visitar Sitio"
+    },
+    "PARTNERSHIP": {
+      "SUBTITLE": "ALIANZA PUNTA CANCÚN",
+      "TITLE": "Aspectos Clave de Nuestra Alianza",
+      "INFO": "Descubre cómo nuestra alianza integral aborda los aspectos fundamentales para hacer de tu evento una experiencia excepcional: recinto, hospedaje y soluciones integrales.",
+      "CARD-1": {
+        "TITLE": "Recinto",
+        "INFO": "El centro de convenciones de Cancún tiene la experiencia, staff y espacio ideal para logralo"
+      },
+      "CARD-2": {
+        "TITLE": "Hospedaje",
+        "INFO": "Los hoteles de Alianza Punta Cancún son sinónimo de lujo y comodidad en la vibrante zona hotelera de Cancún."
+      },
+      "CARD-3": {
+        "TITLE": "Soluciones",
+        "INFO": "Nuestro proveedores son líderes en sus campos, comprometidos con la excelencia."
+      }
+    },
+    "LODGING": {
+      "title": "Hospedaje a pasos de tu evento",
+      "name": "Hospedaje",
+      "info": "Explora nuestras opciones de hospedaje de lujo, diseñadas para ofrecerte una estancia cómoda y memorable durante tu evento en Cancún.",
+      "img": "/assets/images/alianza/lodging.webp",
+      "button": "cotiza con nosotros"
+    },
+    "PARTNERS": {
+      "SUBTITLE": "NUESTROS ALIADOS",
+      "TITLE": "Logística de eventos simplificada",
+      "INFO": "Desde transporte turístico, diseño de stands y displays, tecnología audiovisual y más. Conoce los servicios integrales que ofrece nuestra alianza para garantizar el éxito de cada detalle"
+    }
+  },
+  "FOUNDATION": {
+    "BANNER": {
+      "TITLE": "Fundación Contact Front",
+      "INFO": "Desde el Centro de Convenciones de Cancún Contact Front, nos comprometemos a organizar eventos que vayan más allá de simples reuniones; creemos en las Reuniones con un Propósito. Esta necesidad nos llevó al establecimiento de la Fundación Contact Front, dedicada a retribuir a las comunidades locales que enriquecen nuestro entorno con su belleza natural y cultura vibrante. A través de nuestra fundación, implementamos diversos programas con el objetivo de marcar una diferencia significativa",
+      "BUTTON": "Conoce más"
+    },
+    "ACTIVITIES": {
+      "TITLE": "Actividades",
+      "LIST": [
+        {
+          "img": "/assets/images/found/activities/actv1.webp",
+          "icon": "/assets/images/found/activities/icon1.png",
+          "name": "Brigadas de salud",
+          "info": "Realización de programas de alcance de salud para brindar servicios médicos esenciales y educación a poblaciones desatendidas."
+        },
+        {
+          "img": "/assets/images/found/activities/actv2.webp",
+          "icon": "/assets/images/found/activities/icon2.png",
+          "name": "Medio ambiente",
+          "info": "Participación en iniciativas de limpieza de playas en la Zona Hotelera para preservar nuestros ecosistemas costeros."
+        },
+        {
+          "img": "/assets/images/found/activities/actv3.webp",
+          "icon": "/assets/images/found/activities/icon3.png",
+          "name": "Pabellón de Artesanos Comercio Justo",
+          "info": "Mostramos un poco del arte y la cultura de manos locales, compartiendo un espacio para exponer sus productos en el pabellón de artesanos."
+        },
+        {
+          "img": "/assets/images/found/activities/actv4.webp",
+          "icon": "/assets/images/found/activities/icon1.png",
+          "name": "Centro Comunitario \"WAYAK\" en Mahahual:",
+          "info": "Establecimiento y operación de un centro comunitario en Mahahual para apoyar el desarrollo y bienestar de la comunidad local."
+        }
+      ]
+    },
+    "BANNERS": {
+      "BANNER-1": "Te invitamos a unirte a nosotros en estas iniciativas y colaborar con nuestras comunidades locales. Su participación no solo contribuirá al éxito de nuestros eventos, sino que también tendrá un impacto positivo en la vida de aquellos a quienes deseamos apoyar.",
+      "BANNER-2": "Te guiamos en el camino hacia un evento memorable",
+      "BANNER-2-BUTTON": "Cotiza"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contacto",
+    "INFORMATION": {
+      "TITLE": "Ponerse en contacto con nosotros",
+      "INFO": "Si estás interesado en obtener más información sobre cómo podemos colaborar o si tienes alguna pregunta sobre nuestros servicios, no dudes en contactarnos. Estamos aquí para ayudarte y responder a cualquier consulta que puedas tener.",
+      "ATTENTION": "Atención"
+    },
+    "FORM": {
+      "NAME": "Nombre",
+      "EMAIL": "Correo",
+      "SUBJECT": "Asunto",
+      "MESSAGE": "Mensaje",
+      "BUTTON": "Enviar Mensaje",
+      "NAMECONTACT": "Nombre de Contacto",
+      "PHONE": "Teléfono",
+      "EVENTNAME": "Nombre del Evento",
+      "TYPE": "Selecciona el tipo de evento",
+      "VISITOR": "Número esperado de visitantes",
+      "DATES": "Fechas del Evento",
+      "NOTES": "Notas Adicionales",
+      "CHECK": "Contact Front requiere su consentimiento para la recopilación, uso y/o divulgación de sus Datos personales para facilitar su participación en el evento."
+    },
+    "ALERTS": {
+      "SUCCESS": "Datos enviados correctamente",
+      "ERROR": "Ha ocurrido un error inesperado",
+      "CAPTCHA": "La verificación del captcha ha fallado.",
+      "CHECK": "Marque esta casilla para continuar.",
+      "REQUIRED": "* Requerido",
+      "INVALIDEMAIL": "* Email inválido",
+      "INVALID": "* Inválido"
+    },
+    "THANKS": {
+      "TEXT1": "Thank you for your message.",
+      "TEXT2": " We will contact you shortly."
+    }
+  },
+  "PRIVACY": {
+    "TITLE": "Aviso de Privacidad",
+    "INFO-1": "La información contenida en este sitio web, así como cualquier comunicación derivada de su uso, es confidencial y está destinada únicamente para el uso de los usuarios designados. Si usted accede a información no destinada para usted, por favor notifíquelo de inmediato al administrador del sitio y absténgase de utilizar, reproducir o compartir dicha información sin la debida autorización. Toda difusión, comunicación o uso no autorizado, total o parcial, del contenido del sitio web está estrictamente prohibido.",
+    "INFO-2": "Si tiene alguna duda o requiere aclaración sobre este aviso, por favor comuníquese al correo electrónico: ",
+    "INFO-3": "Cuidado del medio ambiente: Le invitamos a ser consciente del impacto ambiental antes de imprimir cualquier contenido de este sitio."
+  },
+  "FOOTER": {
+    "CONTACT": "Contáctanos",
+    "CONTACT-2": "Contacto",
+    "LEGAL": "Utilidad",
+    "SITE": "Sitio",
+    "PRIVACY": "Aviso de privacidad",
+    "COPY": "Todos los derechos reservados."
+  }
+}

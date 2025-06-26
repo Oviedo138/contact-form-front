@@ -1,0 +1,164 @@
+section {
+  background: linear-gradient(180deg, #e9edfc, #f3f4f8);
+  padding: 100px 0px;
+  .content {
+    width: 100%;
+    max-width: 1096px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    @media (min-width: 991px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 83px;
+    }
+    .form {
+      width: 100%;
+      box-shadow: 0px 3.64px 18.21px 0px #0000001a;
+      background-color: white;
+      border-radius: 9.1px;
+      padding: 68px 37px;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        .inputs {
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          width: 100%;
+          .form-field {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            border: 1px solid #c4c4c4;
+            border-radius: 5px;
+            &.margin-error {
+              border: 1px solid #d60000;
+            }
+            .form-error {
+              color: #d60000;
+              font-size: 12px;
+              position: absolute;
+              top: 48px;
+            }
+            input,
+            textarea {
+              font-family: "RedHatDisplay-Regular";
+              font-size: 16px;
+              width: 100%;
+              padding: 12px 22px;
+              border: 0;
+              border-radius: 5px;
+              background-color: transparent;
+              max-height: 54px;
+              outline: none !important;
+            }
+            textarea {
+              max-height: 100%;
+              resize: none;
+              min-height: 151px !important;
+            }
+            ::placeholder {
+              color: #808285;
+            }
+          }
+        }
+        .button {
+          position: relative;
+          .error-captcha {
+            color: #d60000;
+            font-size: 12px;
+            position: absolute;
+            top: 63px;
+            left: 0px;
+          }
+          button {
+            font-family: "RedHatDisplay-SemiBold";
+            width: 100%;
+            background-color: var(--secondary);
+            height: 60px;
+            font-size: 16px;
+            &:hover {
+              background-color: var(--primary);
+            }
+            &.loading {
+              opacity: 0.8;
+              pointer-events: none;
+              cursor: default;
+            }
+          }
+        }
+      }
+    }
+    .bottom {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 27px;
+      @media (min-width: 991px) {
+        max-width: 486px;
+        .title {
+          padding-right: 30px;
+        }
+      }
+      .title {
+        p {
+          font-size: 38px;
+          font-family: "RedHatDisplay-SemiBold";
+          color: black;
+          @media (min-width: 991px) {
+            font-size: 41px;
+          }
+        }
+      }
+      .info {
+        p {
+          font-family: "RedHatDisplay-Light";
+          font-size: 18px;
+          line-height: 30.05px;
+          text-align: left;
+          color: #343434;
+        }
+      }
+      .last {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .title {
+          P {
+            color: black;
+            font-family: "RedHatDisplay-SemiBold";
+            font-size: 32px;
+            line-height: 1;
+          }
+        }
+        .list {
+          width: 100%;
+          max-width: 300px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          a,
+          p {
+            svg {
+              min-width: 16px;
+            }
+            font-family: "RedHatDisplay-SemiBold";
+            width: fit-content;
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            font-size: 16px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

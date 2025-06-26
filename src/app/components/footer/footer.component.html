@@ -1,0 +1,71 @@
+<section class="m-section">
+
+  <div class="container">
+    <div class="content">
+
+      <div class="top">
+
+        <div class="row one">
+          <div class="logo" (click)="goTo('nav')" routerLink="/home">
+            <img src="/assets/images/logos/logo.png" alt="">
+          </div>
+          <div class="redes">
+            <p class="text">{{"FOOTER.CONTACT" | translate}}</p>
+            <div class="ps">
+              <a href="https://www.instagram.com/contactfrontmx/?hl=es-la" target="_blank"><i
+                  class="pi pi-instagram"></i></a>
+              <a href="https://www.facebook.com/CancunCenterMx/?locale=es_LA" target="_blank"><i
+                  class="pi pi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="two">
+
+          <div class="row">
+            <div class="title">
+              <p class="text">{{"FOOTER.SITE" | translate}}</p>
+            </div>
+            <div class="columns">
+              @for (item of routers; track $index) {
+              <a href="javascript:void(0)" (click)="goTo(item.goto)" [routerLink]="item.route"> {{item.name}} </a>
+              }
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="title">
+              <p class="text">{{"FOOTER.LEGAL" | translate}}</p>
+            </div>
+            <div class="columns">
+              <button (click)="goTo('nav')" routerLink="/privacy-policy">{{"FOOTER.PRIVACY" | translate}}</button>
+            </div>
+          </div>
+
+          <div class="row contact">
+            <div class="title">
+              <p class="text">{{"FOOTER.CONTACT-2" | translate}}</p>
+            </div>
+            <div class="contact">
+              <p class="text">Blvd. Kukulkán Km. 9,Punta Cancun, Zona Hotelera, 77500 Cancún, Q.R.</p>
+              <div class="as">
+                <a href="mailto: info@contactfront.mx">info&#64;contactfront.com</a>
+                <a href="tel:+529988810500">tel. +52 998 881 0500</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="line"></div>
+    <p class="text">Copyright © {{currentYear}}. Contact Front. {{"FOOTER.COPY" | translate}}</p>
+  </div>
+
+</section>

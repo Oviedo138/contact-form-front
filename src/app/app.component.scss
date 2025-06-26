@@ -1,0 +1,27 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whats-icon-mobile {
+  display: flex;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 50;
+  border-radius: 50%;
+  padding: 22px;
+  background-color: #25d366;
+  cursor: pointer;
+  max-width: 92px;
+  max-height: 92px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    border-radius: 50% 16px 50% 50%;
+  }
+  img {
+    max-width: 48.7px;
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "NAVBAR": {
+    "ROUTES": {
+      "HOME": {
+        "name": "Home",
+        "route": "home",
+        "goto": "nav"
+      },
+      "FACILITIES": {
+        "name": "Facilities",
+        "route": "facilities",
+        "goto": "nav"
+      },
+      "CANCUN": {
+        "name": "Cancun",
+        "route": "cancun",
+        "goto": "nav"
+      },
+      "APC": {
+        "name": "Alianza Punta Cancun",
+        "route": "alianza",
+        "goto": "nav"
+      },
+      "CANCUN-CENTER": {
+        "name": "Contact Front Foundation",
+        "route": "foundation",
+        "goto": "nav"
+      },
+      "CONTACT": {
+        "name": "Contact",
+        "route": "contact",
+        "goto": "nav"
+      }
+    },
+    "BUTTON": "GET A QUOTE"
+  },
+  "HOME": {
+    "EXTRAORDINARY": {
+      "TITLE": "Show the extraordinary",
+      "CARD1": {
+        "TITLE": "Privileged Location",
+        "INFO": "Just 20 minutes from Cancun International Airport, we are in the heart of the hotel zone",
+        "BUTTON": "Find us on Google Maps",
+        "ROUTE": ""
+      },
+      "CARD2": {
+        "TITLE": "More than 152,847 square feet for your event",
+        "INFO": "4 spacious levels, 10 rooms that can be divided up to 36 sections. Take a look at our facilities",
+        "BUTTON": "View our spaces",
+        "ROUTE": ""
+      },
+      "CARD3": {
+        "TITLE": "The Ideal Venue",
+        "INFO": "Contact Front has earned a reputation as one of the premier event venues in the Mexican Caribbean",
+        "BUTTON": "Contact us",
+        "ROUTE": ""
+      }
+    },
+    "SERVICES": {
+      "TITLE": "Services",
+      "SUB": "Elevate your next event to something extraordinary",
+      "INFO": "In addition to providing the perfect space, we also offer various services that will make your event memorable.",
+      "CARD1": "Branding",
+      "CARD2": "Audiovisual",
+      "CARD3": "Catering",
+      "CARD4": "Internet"
+    },
+    "CELEBRATIONS": {
+      "TITLE": "Celebrations",
+      "SUB": "Quote the ideal type of event for you",
+      "INFO": "Contact Front is a venue with modern and versatile facilities that can adapt to the needs of any event.",
+      "BUTTON": "Learn more",
+      "CARDS": [
+        {
+          "img": "/assets/images/home/cele/gra.webp",
+          "name": "Graduations"
+        },
+        {
+          "img": "/assets/images/home/cele/bodas.webp",
+          "name": "Weddings"
+        },
+        {
+          "img": "/assets/images/home/cele/year.webp",
+          "name": "Year-end Parties"
+        },
+        {
+          "img": "/assets/images/home/cele/party.webp",
+          "name": "15th birthday Party"
+        }
+      ]
+    },
+    "HOTELS": {
+      "TITLE": "Where to stay",
+      "INFO": "Hotel Aloft Cancun is a modern, innovative, and fun concept. With our design inspired by lofts and where energy flows, you can celebrate your style in the spaciousness of an open space without walls or limits. Discover why everyone is talking about Aloft Hotels and experience a new way of traveling. Aloft Cancun features 177 urban-inspired rooms, spacious and ready to welcome you during your next event at Contact Front.",
+      "BUTTON": "Book now"
+    },
+    "APC": {
+      "TITLE": "ALIANZA PUNTA CANCUN Innovation, Professionalism, and a Prime Location to Offer Unique and Unforgettable Experiences",
+      "INFO": "Alianza Punta Cancún is a team of professionals in the meetings, hospitality, and solutions industry, ready to elevate your event from ordinary to extraordinary. With the concept of \"Citywide Meetings,\" our experience and commitment have demonstrated exceptional service, blending innovation and professionalism to ensure the success of each event.",
+      "BUTTON": "Discover more"
+    },
+    "TITLES": {
+      "TITLE-VIRTUAL": "Virtual inspection",
+      "TITLE-MAPS": "Find us on Google Maps",
+      "TITLE-SPACES": "Our Spaces",
+      "PLACEHOLDER-SELECT": "Select a level"
+    },
+    "FOUNDATION": {
+      "TITLE": "Contact Front Foundation",
+      "INFO": "Helping makes us greater. Contact Front cares about the Quintana Roo community, which is why, through our foundation, we have supported over 50 communities in emergency situations. Our initiatives include health brigades, promoting local crafts, beach clean-ups, and a program to boost local consumption during difficult times.",
+      "BUTTON": "Discover more"
+    },
+    "DYNAMIC": {
+      "DESTINATION": {
+        "back": "/assets/images/home/caribe-back.webp",
+        "title": "Destination",
+        "logo": "/assets/images/logos/caribe.png",
+        "info": "The Mexican Caribbean is known for its white sand beaches, turquoise waters, and rich culture. Cancun, located in the southeastern part of Mexico, is the ultimate tourist destination and gateway to the Mayan world, famous for its extensive accommodation options, connectivity, nightlife, and a wide variety of water and entertainment activities. Cancun provides the perfect setting for all types of events, from conferences and conventions to weddings and concerts.",
+        "button": "Learn more about",
+        "image1": "/assets/images/home/caribe-1.webp",
+        "image2": "/assets/images/home/caribe-2.webp"
+      },
+      "WHOAREWE": {
+        "back": "/assets/images/home/who-back.webp",
+        "title": "Who are we",
+        "info": "Contact Front is the world-class convention center located in the heart of Cancun's Hotel Zone, designed to host a wide variety of events, from conferences and exhibitions to congresses and conventions.",
+        "info2": "In addition to its cutting- edge infrastructure, Contact Front stands out for its strategic location near hotels, restaurants, and tourist attractions, making it the ideal venue for both participants and organizers.",
+        "image1": "/assets/images/home/who-1.webp",
+        "image2": "/assets/images/home/who-2.webp"
+      }
+    },
+    "SPACES": [
+      {
+        "name": "Ground floor",
+        "sub": "The favorite of large exhibitors",
+        "button": "Download floorplans",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fenglish%2FBlue%20prints%20PB%20ENG.pdf?alt=media&token=d43ae6b6-f651-4d90-8df0-25d97f539f64",
+        "images": [
+          "/assets/images/home/spaces/level-0-1.webp",
+          "/assets/images/home/spaces/level-0-2.webp",
+          "/assets/images/home/spaces/level-0-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Exhibition area",
+            "list": [
+              "3,939 sqm",
+              "Max. height allowed: 3 m",
+              "Dynamic load: 2,000 kg/sqm"
+            ]
+          },
+          {
+            "title": "Auditorium",
+            "list": [
+              "352 sqm",
+              "Max. height allowed: 4.80 m",
+              "Dynamic load: 400 kg/sqm",
+              "Length: 19 m",
+              "Width: 1 m"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Level 01",
+        "sub": "Ideal for conferences and workshops",
+        "button": "Download floorplans",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fenglish%2FBlue%20prints%20Nivel%201%20ENG.pdf?alt=media&token=448f9050-6a51-4597-b5e9-3eb6418720ff",
+        "images": [
+          "/assets/images/home/spaces/level-1-1.webp",
+          "/assets/images/home/spaces/level-1-2.webp",
+          "/assets/images/home/spaces/level-1-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Exhibition area",
+            "list": [
+              "597 sqm",
+              "Max. height allowed: 3 m",
+              "Dynamic load: 400 kg/sqm"
+            ]
+          },
+          {
+            "title": "Costa Maya",
+            "list": [
+              "870 sqm",
+              "Divisible up to 5 sections and 1 foyer",
+              "Max. height allowed: 3.2 m",
+              "Dynamic load: 400 kg/sqm",
+              "Length: 29 m",
+              "Width: 30 m"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Level 02",
+        "sub": "One of the favorites for social events, conferences, congresses, and conventions",
+        "button": "Download floorplans",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fenglish%2FBlue%20prints%20Nivel%202%20ENG.pdf?alt=media&token=4f42c463-915c-4f91-9ae7-63d846df3fc6",
+        "images": [
+          "/assets/images/home/spaces/level-2-1.webp",
+          "/assets/images/home/spaces/level-2-2.webp",
+          "/assets/images/home/spaces/level-2-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Isla Mujeres",
+            "list": [
+              "171 sqm | length: 20 m | width: 8 m",
+              "Divisible up to 4 sections",
+              "Max. height allowed: 2.8 m",
+              "Dynamic load: 400 kg/sqm",
+              "Soundproof walls"
+            ]
+          },
+          {
+            "title": "Cobá",
+            "list": [
+              "244 sqm | length: 24 m | width: 10 m",
+              "Max. height allowed: 3.2 m",
+              "Dynamic load: 400 kg/sqm"
+            ]
+          },
+          {
+            "title": "Contoy",
+            "list": [
+              "348 sqm | length: 21 m | width: 16 m",
+              "U shape for 30 pp",
+              "Private office and lobby",
+              "Private restrooms"
+            ]
+          },
+          {
+            "title": "Akumal terrace",
+            "list": [
+              "706 sqm | length: 72 m | width: 10 m",
+              "Outdoor area",
+              "Dynamic load: 400 kg/sqm"
+            ]
+          },
+          {
+            "title": "Cozumel",
+            "list": [
+              "1,296 sqm | length: 36 m | width: 36 m",
+              "Divisible up to 5 sections and 1 foyer",
+              "Max. height allowed: 3.7 m",
+              "Dynamic load: 400 kg/sqm",
+              "Soundproof walls"
+            ]
+          },
+          {
+            "title": "Xcaret",
+            "list": [
+              "200 sqm | length: 21 m | width: 10 m",
+              "Divisible up to 4 sections",
+              "Max. height allowed: 2.8 m",
+              "Dynamic load: 400 kg/sqm",
+              "Soundproof walls"
+            ]
+          },
+          {
+            "title": "Tulum",
+            "list": [
+              "181 sqm | length: 19 m | width: 10 m",
+              "Divisible up to 4 sections",
+              "Max. height allowed: 2.8 m",
+              "Dynamic load: 400 kg/sqm",
+              "Soundproof wall"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Level 03",
+        "sub": "A multipurpose foyer and the largest hall in the entire venue",
+        "button": "Download floorplans",
+        "route": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fenglish%2FBlue%20prints%20Nivel%203%20ENG.pdf?alt=media&token=50dabf6b-6f62-4381-9b50-c4a6cfb5f8ee",
+        "images": [
+          "/assets/images/home/spaces/level-3-1.webp",
+          "/assets/images/home/spaces/level-3-2.webp",
+          "/assets/images/home/spaces/level-3-3.webp"
+        ],
+        "lists": [
+          {
+            "title": "Gran Cancún",
+            "list": [
+              "2,658 sqm | length: 57 m | width: 47 m",
+              "Divisible up to 5 sections and 1 foyer",
+              "Max. height allowed: 8.6 m",
+              "Dynamic load: 400 kg/sqm",
+              "Soundproof walls"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "FACILITIES": {
+    "BANNER": {
+      "TITLE": "Spaces and Capacities",
+      "INFO": "Contact Front offers 14,200 m² (152,847 ft²) of event space, 10 rooms that can be divided into up to 36 break-out rooms, a terrace for outdoor events, and an exhibition area with an auditorium. Explore our 4 levels!"
+    },
+    "LEVELS": {
+      "GROUND": "Ground floor",
+      "LEVEL-1": "Level 01",
+      "LEVEL-2": "Level 02",
+      "LEVEL-3": "Level 03"
+    },
+    "IMAGE": "/assets/images/facil/tables/capabilities.png",
+    "TABLES": {
+      "capacity": {
+        "name": "Capacity Chart",
+        "title-table": "Capacities",
+        "img": "/assets/images/facil/table.webp",
+        "header": "Download",
+        "yes": "Yes",
+        "no": "No",
+        "alert": "¿Download the \"Capacity Table\"?",
+        "download": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/zips%2Fcapabilities.zip?alt=media&token=39fd18c3-f422-4232-95f8-e0b4e028ed15"
+      },
+      "gallery": {
+        "name": "Gallery",
+        "title-table": "Gallery",
+        "img": "/assets/images/facil/table.webp",
+        "header": "Download",
+        "yes": "Yes",
+        "no": "No",
+        "alert": "¿Download the \"Gallery of Spaces\"?",
+        "download": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/zips%2FNiveles%20y%20salones.zip?alt=media&token=7de1ddd2-e102-4f31-8df0-8c1285c7bd06"
+      },
+      "floor": {
+        "name": "Floor plans",
+        "title-table": "Floor plans",
+        "img": "/assets/images/facil/table.webp",
+        "header": "Download",
+        "yes": "Yes",
+        "no": "No",
+        "alert": "¿Download the \"Plans\"?",
+        "download": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/new%2Fenglish%2FBlueprints-CancunCenter.zip?alt=media&token=4e13edd0-2758-4347-ab3e-38f130e3eee3"
+      }
+    },
+    "IMAGES": [
+      "/assets/images/facil/bajaEn.webp",
+      "/assets/images/facil/level1En.webp",
+      "/assets/images/facil/level2En.webp",
+      "/assets/images/facil/level3En.webp"
+    ]
+  },
+  "CANCUN": {
+    "BANNER": {
+      "TITLE": "Reinventing Events: Cancun, a World-Class Destination",
+      "INFO": "Its white sandy beaches and crystal-clear Caribbean Sea waters have made Cancun one of the best destinations in the world. With a wide range of hotels, restaurants, shopping centers, and recreational activities, this destination meets the needs of the most discerning visitors. Additionally, its excellent national and international connectivity makes it an accessible and convenient destination for travelers from around the world.",
+      "BUTTON": "Learn more about the destination"
+    },
+    "INFRASTRUCTURE": {
+      "TITLE": "Infrastructure",
+      "INFO": "With over 31 million visitors, Cancun offers more than 45,000 hotel rooms distributed among over 200 hotels throughout the area. In addition to investments in mobility from key points in the city, Cancun remains a world-class destination, designed to provide visitors with a comfortable experience during their stay."
+    },
+    "TOURISM": {
+      "TITLE": "Tourism offer",
+      "INFO": "Cancun's tourism offerings are unparalleled in their variety and quality, providing a unique combination of natural beauty, history and culture, outdoor adventure, and nightlife entertainment. With so many exciting options available, Cancun truly is a destination that has something special for every traveler."
+    },
+    "CONNECTIVITY": {
+      "TITLE": "Connectivity",
+      "INFO": "Cancun International Airport (CUN) is the gateway to the Mexican Caribbean region. Known for its modern infrastructure and wide range of services, the airport offers direct connections to more than 130 destinations worldwide.",
+      "BUTTON": "See more",
+      "ROUTE": "https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/connectivity%2FConectivity%20ENG.pdf?alt=media&token=33dba356-df90-498a-aa53-e58f9f7ba444"
+    },
+    "VISITING": {
+      "title": "Visiting Cancun is always a safe bet",
+      "name": "Cancun",
+      "info": "Cancun not only meets but exceeds all the expectations of its visitors. From its tropical beaches to its majestic jungles, its charming towns to its modern cities, and from its delightful local cuisine to high-end culinary experiences. The emblematic Mexican hospitality, exquisite local gastronomy, luxurious spas, impressive archaeological sites, and paradise-like beaches are what visitors miss the most after leaving Cancun.",
+      "img": "/assets/images/cancun/cancun.webp"
+    },
+    "TITLE-MAP": "The ideal place to combine business and pleasure."
+  },
+  "APC": {
+    "BANNER": {
+      "SUBTITLE": "Successful Collaboration",
+      "TITLE": "Contact Front and Alianza Punta Cancún",
+      "INFO": "Explore how our exclusive partnership offers comprehensive solutions for unforgettable events in Cancun.",
+      "BUTTON": "Visit Site"
+    },
+    "PARTNERSHIP": {
+      "SUBTITLE": "ALIANZA PUNTA CANCÚN",
+      "TITLE": "Key Aspects of Our Partnership",
+      "INFO": "Discover how our comprehensive alliance addresses the fundamental aspects to make your event an exceptional experience: venue, lodging, and integrated solutions.",
+      "CARD-1": {
+        "TITLE": "Venue",
+        "INFO": "Cancun's convention center has the experience, staff, and ideal space to make it happen."
+      },
+      "CARD-2": {
+        "TITLE": "Lodging",
+        "INFO": "The hotels in Alianza Punta Cancun are synonymous with luxury and comfort in Cancun's vibrant hotel zone."
+      },
+      "CARD-3": {
+        "TITLE": "Solutions",
+        "INFO": "Our suppliers are leaders in their fields, committed to excellence."
+      }
+    },
+    "LODGING": {
+      "title": "Lodging Steps Away from Your Events",
+      "name": "Stay",
+      "info": "Explore our luxury lodging options, designed to provide you with a comfortable and memorable stay during your event in Cancun.",
+      "img": "/assets/images/alianza/lodging.webp",
+      "button": "Get a quote with us"
+    },
+    "PARTNERS": {
+      "SUBTITLE": "OUR PARTNERS",
+      "TITLE": "Simplified Event Logistics",
+      "INFO": "From transportation, stand and display design, audiovisual technology, and more. Discover the comprehensive services our partnership offers to ensure the success of every detail."
+    }
+  },
+  "FOUNDATION": {
+    "BANNER": {
+      "TITLE": "Contact Front Foundation",
+      "INFO": "At Contact Front, we are committed to organizing events that go beyond simple meetings; we believe in Meetings with a Purpose. This need led us to establish the Contact Front Foundation, dedicated to giving back to the local communities that enrich our surroundings with their natural beauty and vibrant culture. Through our foundation, we implement various programs with the goal of making a meaningful difference.",
+      "BUTTON": "Learn more"
+    },
+    "ACTIVITIES": {
+      "TITLE": "Activities",
+      "LIST": [
+        {
+          "img": "/assets/images/found/activities/actv1.webp",
+          "icon": "/assets/images/found/activities/icon1.png",
+          "name": "Health Brigades",
+          "info": "Implementation of outreach health programs to provide essential medical services and education to underserved populations."
+        },
+        {
+          "img": "/assets/images/found/activities/actv2.webp",
+          "icon": "/assets/images/found/activities/icon2.png",
+          "name": "Environment",
+          "info": "Participation in beach clean-up initiatives in the Hotel Zone to preserve our coastal ecosystems."
+        },
+        {
+          "img": "/assets/images/found/activities/actv3.webp",
+          "icon": "/assets/images/found/activities/icon3.png",
+          "name": "Craft pavilion",
+          "info": "We showcase a bit of the art and culture of local artisans, providing them with a space to display their products in the artisans' pavilion."
+        },
+        {
+          "img": "/assets/images/found/activities/actv4.webp",
+          "icon": "/assets/images/found/activities/icon1.png",
+          "name": "WAYAK\" Community Center in Mahahual:",
+          "info": "Establishment and operation of a community center in Mahahual to support the development and well-being of the local community."
+        }
+      ]
+    },
+    "BANNERS": {
+      "BANNER-1": "Establishment and operation of a community center in Mahahual to support the development and well-being of the local community.",
+      "BANNER-2": "We guide you on the path to a memorable event.",
+      "BANNER-2-BUTTON": "Get a Quote"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "INFORMATION": {
+      "TITLE": "Get in Touch with Us",
+      "INFO": "If you're interested in learning more about how we can collaborate or if you have any questions about our services, don’t hesitate to contact us. We're here to help and answer any inquiries you may have.",
+      "ATTENTION": "Attention"
+    },
+    "FORM": {
+      "NAME": "Full name",
+      "EMAIL": "E-mail",
+      "SUBJECT": "Subject",
+      "MESSAGE": "Message",
+      "BUTTON": "Send Message",
+      "NAMECONTACT": "Contact Name",
+      "PHONE": "Phone number",
+      "EVENTNAME": "Event Name",
+      "TYPE": "Select Event Type",
+      "VISITOR": "Expected Number of Visitors",
+      "DATES": "Event Dates",
+      "NOTES": "Additional Notes",
+      "CHECK": "Contact Front requires your consent for the collection, use, and/or disclosure of your personal data to facilitate your participation in the event."
+    },
+    "ALERTS": {
+      "SUCCESS": "Data sent correctly",
+      "ERROR": "An unexpected error has occurred",
+      "CAPTCHA": "Captcha verification has failed.",
+      "CHECK": "Check this box to continue.",
+      "REQUIRED": "* Required",
+      "INVALIDEMAIL": "* Invalid email",
+      "INVALID": "* Invalid"
+    }
+  },
+  "PRIVACY": {
+    "TITLE": "Privacy Notice",
+    "INFO-1": "The information contained on this website, as well as any communication derived from its use, is confidential and intended solely for the designated users. If you access information not intended for you, please notify the site administrator immediately and refrain from using, reproducing, or sharing such information without proper authorization. Any unauthorized dissemination, communication, or use, in whole or in part, of the website’s content is strictly prohibited.",
+    "INFO-2": "If you have any questions or require clarification regarding this notice, please contact us at: ",
+    "INFO-3": "Environmental Care: We encourage you to be mindful of the environmental impact before printing any content from this site."
+  },
+  "FOOTER": {
+    "CONTACT": "Contact us",
+    "CONTACT-2": "Contact",
+    "LEGAL": "Legal Information",
+    "SITE": "Site",
+    "PRIVACY": "Privacy Policy",
+    "COPY": "All rights reserved."
+  }
+}

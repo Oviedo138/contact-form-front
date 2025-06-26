@@ -1,1 +1,467 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/presets/fonts.scss";
+@import "./assets/presets/containers.scss";
+
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
+@import "swiper/scss/effect-fade";
+
+@import "primeicons/primeicons.css";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+:root {
+  --primary: #0069a7;
+  --secondary: #00b2e3;
+  --text-default: #54565a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  // background: #ebe9e7;
+  background-color: #efeeea;
+  height: 100%;
+  font-family: "RedHatDisplay-Regular";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  color: var(--text-default);
+  margin: 0;
+  font-family: "RedHatDisplay-Regular";
+}
+
+.blog-carousel {
+  p {
+    color: white !important;
+  }
+}
+
+ul,
+ol {
+  // list-style: none;
+  color: var(--text-default);
+  padding: 0;
+  font-family: "RedHatDisplay-Regular";
+}
+
+li {
+  font-family: "RedHatDisplay-Regular";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "RedHatDisplay-Regular";
+  &:hover {
+    cursor: pointer;
+    opacity: 100%;
+  }
+}
+
+.m-section {
+  padding: 70px 0px;
+  // overflow: hidden;
+}
+
+.title-banner {
+  font-family: "RedHatDisplay-Regular";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  @media (min-width: 575px) {
+    font-size: 60px;
+    line-height: 64px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 64px;
+    line-height: 71px;
+  }
+}
+
+.title-section {
+  font-family: "RedHatDisplay-Bold";
+  font-size: 32px;
+  line-height: 1.1;
+  @media (min-width: 575px) {
+    font-size: 35px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 41px;
+  }
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-default);
+  font-weight: 400;
+  font-family: "RedHatDisplay-Regular";
+  @media (min-width: 575px) {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+.subtitle {
+  color: #0069a7;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21;
+  letter-spacing: 0.5em;
+  font-family: "RedHatDisplay-Regular";
+  text-transform: uppercase;
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+// BUTTONS
+.btn-primary {
+  font-family: "Inter-Regular";
+  white-space: nowrap;
+  padding: 13.41px 26.83px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px;
+  font-weight: 300;
+  font-size: 21.46px;
+  height: 51px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary);
+  color: white;
+  &:hover {
+    background-color: var(--secondary);
+  }
+}
+
+.btn-secondary {
+  font-family: "Inter-Regular";
+  white-space: nowrap;
+  padding: 13.41px 26.83px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px;
+  font-weight: 300;
+  font-size: 21.46px;
+  transition: all 0.3s ease-in-out;
+  height: 51px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  &:hover {
+    color: white;
+    background-color: var(--secondary);
+  }
+}
+
+.p-sidebar {
+  // background-color: var(--secondary) !important;
+  background-color: #efeeea !important;
+}
+.p-sidebar .p-sidebar-header {
+  display: none;
+}
+
+.swiper-hotels {
+  .swiper-pagination {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+.swiper-tourism {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #00b2e3 !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 !important;
+  }
+
+  .swiper-pagination {
+    bottom: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px !important;
+  }
+}
+
+.marquee {
+  overflow: visible;
+}
+
+.swiper-activities {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: var(--primary) !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #b4afaf;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 !important;
+  }
+
+  .swiper-pagination {
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 26px !important;
+  }
+}
+
+.drop-home {
+  .p-dropdown {
+    width: 260px;
+    max-width: 100%;
+    border: 1.5px solid #0069a7;
+    box-shadow: none;
+    border-radius: 6px;
+    &:focus-visible,
+    &:hover {
+      border-radius: 6px 6px 0px 0px !important;
+    }
+    .p-inputtext {
+      font-family: "RedHatDisplay-SemiBold";
+      padding: 11px 18px;
+      font-size: 16px;
+      color: #1e1e1e;
+    }
+    .p-dropdown-item.p-highlight.p-focus {
+      background-color: #c4cbdf;
+    }
+    .p-dropdown-item {
+      font-family: "RedHatDisplay-SemiBold";
+      padding: 11px 18px;
+      font-size: 14px;
+      color: #1e1e1e;
+      padding: 11px 24px;
+      &:hover {
+        background-color: #e1e2e5;
+      }
+    }
+    .p-icon-wrapper {
+      color: #313144;
+    }
+  }
+}
+
+.type-drop,
+.date-modal,
+.inputnumber,
+.area {
+  .p-dropdown,
+  .p-calendar,
+  .p-inputnumber {
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow: none !important;
+    border-radius: 6px;
+    .p-inputtext {
+      font-family: "RedHatDisplay-Regular";
+      padding: 10px 16px;
+      font-size: 14px;
+      color: #6d6d6d;
+      box-shadow: none !important;
+      &:hover {
+        box-shadow: none !important;
+      }
+    }
+    .p-dropdown-item.p-highlight.p-focus {
+      background-color: #c4cbdf;
+    }
+    .p-dropdown-item {
+      font-family: "RedHatDisplay-Regular";
+      font-size: 14px;
+      color: #6d6d6d;
+      padding: 11px 18px;
+      &:hover {
+        background-color: #e1e2e5;
+      }
+    }
+    .p-icon-wrapper {
+      color: #313144;
+    }
+  }
+  .p-inputtextarea {
+    width: 100%;
+    font-family: "RedHatDisplay-Regular";
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #6d6d6d;
+    box-shadow: none !important;
+    border: 0;
+    border-radius: 0px;
+    border-bottom: 1px solid #c4c4c4;
+    &:hover {
+      box-shadow: none !important;
+    }
+  }
+  .p-calendar {
+    .p-inputtext {
+      border: 1px solid #c4c4c4;
+      color: var(--primary);
+      font-family: "RedHatDisplay-Bold";
+      &:hover {
+        border: 1px solid #c4c4c4 !important;
+        box-shadow: none !important;
+      }
+    }
+    .p-datepicker table td > span.p-highlight {
+      color: white;
+      background-color: var(--primary);
+      border-radius: 8px;
+    }
+  }
+  .p-inputnumber {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    &.invalid-prime {
+      border-color: #d60000 !important;
+    }
+    .p-inputtext {
+      border: 0px solid transparent;
+      padding-right: 5px;
+    }
+    .p-inputnumber-button-group {
+      .p-button.p-button-icon-only {
+        width: fit-content;
+        padding-right: 10px;
+      }
+      width: fit-content !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+.swiper-spaces {
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-pagination {
+    display: none;
+  }
+  .swiper-slide {
+    opacity: 0.45;
+  }
+  .swiper-slide-active {
+    opacity: 1;
+  }
+}
+
+.cdk-global-scrollblock {
+  position: initial;
+  width: initial;
+  overflow: hidden;
+}
+
+.mdc-dialog__surface {
+  overflow: visible !important;
+  border-radius: 50px !important;
+}
+
+p-inputnumber {
+  width: 100%;
+}
+
+.p-checkbox-label {
+  color: #000000;
+  font-family: "RedHatDisplay-SemiBold";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.p-checkbox .p-checkbox-box {
+  background-color: white;
+  border-color: #54565a;
+  box-shadow: none;
+}
+.p-checkbox.p-variant-filled .p-checkbox-box.p-highlight {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.invalid-prime {
+  .p-inputtext {
+    border-color: #d60000 !important;
+  }
+}
+
+.grecaptcha-badge {
+  z-index: 20;
+  // bottom: 125px !important;
+}
+
+.grecaptcha-badge {
+  width: 70px !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+  left: 0px !important;
+}
+.grecaptcha-badge:hover {
+  width: 256px !important;
+}
