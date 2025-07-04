@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  URL_API: "https://mailings-tangente.herokuapp.com/api"
+  URL_API: "http://localhost:8080/api",
 };

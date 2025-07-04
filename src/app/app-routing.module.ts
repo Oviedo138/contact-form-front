@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 // import { ApcPageComponent } from './pages/apc-page/apc-page.component';
 // import { FoundationPageComponent } from './pages/foundation-page/foundation-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { PrivacyPolicyPageComponent } from './pages/privacy-policy-page/privacy-policy-page.component';
 // import { FacilitiesPageComponent } from './pages/facilities-page/facilities-page.component';
 // import { PrivacyPolicyPageComponent } from './pages/privacy-policy-page/privacy-policy-page.component';
 
@@ -17,7 +18,7 @@ const routes: Routes = [
       // { path: 'alianza', component: ApcPageComponent },
       // { path: 'foundation', component: FoundationPageComponent },
       { path: 'contact', component: ContactPageComponent },
-      // { path: 'privacy-policy', component: PrivacyPolicyPageComponent },
+      { path: 'privacy-policy', component: PrivacyPolicyPageComponent },
       { path: '**', redirectTo: 'contact', pathMatch: 'full' },
     ]
   }

@@ -51,7 +51,7 @@ import { ContactFormComponent } from './components/contact/contact-form/contact-
 // import { SpacesCapacitiesComponent } from './components/facilities/spaces-capacities/spaces-capacities.component';
 // import { FacilitiesPageComponent } from './pages/facilities-page/facilities-page.component';
 import { ConfirmationService, MessageService } from 'primeng/api';
-// import { PrivacyPolicyPageComponent } from './pages/privacy-policy-page/privacy-policy-page.component';
+import { PrivacyPolicyPageComponent } from './pages/privacy-policy-page/privacy-policy-page.component';
 import { NgxFastMarqueeModule } from "ngx-fast-marquee";
 
 @NgModule({
@@ -91,7 +91,7 @@ import { NgxFastMarqueeModule } from "ngx-fast-marquee";
     // OurSpacesHomeComponent,
     // SpacesCapacitiesComponent,
     // FacilitiesPageComponent,
-    // PrivacyPolicyPageComponent
+    PrivacyPolicyPageComponent
   ],
   imports: [
     BrowserModule,
@@ -123,7 +123,7 @@ import { NgxFastMarqueeModule } from "ngx-fast-marquee";
     ReCaptchaV3Service,
     {
       provide: RECAPTCHA_V3_SITE_KEY,
-      useValue: "6LcmDUEqAAAAAKWHikSRgxroRYy3uZ8wcmRV5Ul5",
+      useValue: "6LcP1G0rAAAAACnbXXtOvC0beQR1vX54Qz6aDbdx",
     },
   ],
   bootstrap: [AppComponent]

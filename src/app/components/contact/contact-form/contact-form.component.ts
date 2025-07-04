@@ -38,6 +38,7 @@ export class ContactFormComponent {
   public alerts: any = {};
 
   constructor(
+    @Inject(PLATFORM_ID) private platformId: any,
     private formBuilder: FormBuilder,
     private toastService: ToastService,
     private translate: TranslateService,
@@ -45,10 +46,11 @@ export class ContactFormComponent {
     private recaptchaV3Service: ReCaptchaV3Service,
   ) {
     this.contactForm = this.formBuilder.group({
-      name: ['', Validators.required],
-      email: ['', [Validators.pattern('^[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\\.[a-z]{2,6}$')]],
-      subjet: ['', Validators.required],
-      message: [''],
+      name: ['Prurbas', Validators.required],
+      email: ['mail@mail.com', [Validators.pattern('^[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\\.[a-z]{2,6}$')]],
+      phone: ['9987878787', Validators.required],
+      agree: [false, Validators.required],
+      message: ['Mensajito de pruebas'],
     });
   }
 
@@ -56,6 +58,10 @@ export class ContactFormComponent {
     this.onLangChange();
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.onLangChange();
+    });
+
+    this.contactForm.get('valid')?.valueChanges.subscribe(value => {
+      console.log('Checkbox cambiado, valor del formulario:', this.contactForm.value);
     });
   }
 
@@ -72,16 +78,21 @@ export class ContactFormComponent {
       this.invalidFlag = 'invalid-name';
       this.invalid = true;
     }
-    if (this.contactForm.controls['subjet'].errors) {
-      this.invalidFlag = 'invalid-subjet';
+    if (this.contactForm.controls['phone'].errors) {
+      this.invalidFlag = 'invalid-phone';
       this.invalid = true;
     }
     if (this.contactForm.controls['email'].errors) {
       this.invalidFlag = 'invalid-email';
       this.invalid = true;
     }
-    if (this.contactForm.invalid) {
+    if (this.contactForm.controls['agree'].errors) {
+      this.invalidFlag = 'invalid-agree';
+      this.invalid = true;
+    }
+    if (this.contactForm.invalid || this.contactForm.value.agree != true) {
       this.invalidFlag = 'invalid-all';
+      this.toastService.showWarn(' Por favor, completa todos los campos requeridos y acepta los términos y condiciones.');
       setTimeout(() => {
         this.resetValidations()
       }, 3000);
@@ -136,6 +147,16 @@ export class ContactFormComponent {
       this.isLoading = false;
       this.toastService.showWarn(this.alerts.ERROR);
       console.log(error);
+    }
+  }
+
+  goTo(path: any, event?: any) {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        let element = document.querySelector('#' + path) as HTMLElement;
+        let topOfElement = element.offsetTop - 100;
+        window.scroll({ top: topOfElement, behavior: 'smooth' });
+      }, 200);
     }
   }
 

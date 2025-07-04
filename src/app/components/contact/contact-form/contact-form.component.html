@@ -13,13 +13,22 @@
                 {{errorMessage('name')}}
               </p>
             </div>
-            <div class="form-field"
+            <!-- <div class="form-field"
               [ngClass]="{'margin-error' : (contactForm.get('subjet')?.errors && contactForm.get('subjet')?.touched) || (invalid && contactForm.get('subjet')?.untouched)}">
               <input [placeholder]="'CONTACT.FORM.SUBJECT' | translate" type="text" required
                 (click)="resetValidations()" formControlName="subjet" />
               <p class="form-error" [@enterAnimation]
                 *ngIf="(contactForm.get('subjet')?.errors && contactForm.get('subjet')?.touched) || (invalid && contactForm.get('subjet')?.untouched)">
                 {{errorMessage('subjet')}}
+              </p>
+            </div> -->
+            <div class="form-field"
+              [ngClass]="{'margin-error' : (contactForm.get('phone')?.errors && contactForm.get('phone')?.touched) || (invalid && contactForm.get('phone')?.untouched)}">
+              <input [placeholder]="'CONTACT.FORM.PHONE' | translate" type="text" required (click)="resetValidations()"
+                formControlName="phone" minlength="10" maxlength="15" oninput="(value=value.replace(/\D+/g, ''))" />
+              <p class="form-error" [@enterAnimation]
+                *ngIf="(contactForm.get('phone')?.errors && contactForm.get('phone')?.touched) || (invalid && contactForm.get('phone')?.untouched)">
+                {{errorMessage('phone')}}
               </p>
             </div>
             <div class="form-field"
@@ -41,6 +50,13 @@
               <textarea [placeholder]="'CONTACT.FORM.MESSAGE' | translate" formControlName="message"></textarea>
             </div>
           </div>
+
+          <div class="check">
+            <p-checkbox formControlName="agree" [label]="'CONTACT.FORM.CHECK' | translate" [binary]="true"
+              variant="filled" />
+          </div>
+
+
 
           <div class="button captcha">
             <button class="btn-primary" [ngClass]="{'loading': isLoading}" [disabled]="isLoading">

@@ -6,8 +6,8 @@ import { environment } from '../../../environments/environment';
   providedIn: 'root'
 })
 export class ContactService {
-  public CONTACT_URI: string = `${environment.URL_API}/mail/contact-cancun-center`;
-  public QUOTE_URI: string = `${environment.URL_API}/mail/quote-cancun-center`;
+  public CONTACT_URI: string = `${environment.URL_API}/contact/save-contact`;
+  public QUOTE_URI: string = `${environment.URL_API}/contact/save-quote`;
 
   constructor(
     private http: HttpClient
