@@ -6,6 +6,7 @@ import { ToastService } from '../../../services/toast/toast.service';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { ReCaptchaV3Service } from 'ng-recaptcha';
 import { ContactService } from '../../../services/contact/contact.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact-form',
@@ -33,12 +34,12 @@ export class ContactFormComponent {
   public invalid: boolean = false;
   public invalidFlag: string = '';
   public invalidCaptcha: string = '';
-  public activeLang = 'en';
   public translateJson: any = {};
   public alerts: any = {};
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: any,
+    private titleService: Title,
     private formBuilder: FormBuilder,
     private toastService: ToastService,
     private translate: TranslateService,
@@ -55,17 +56,17 @@ export class ContactFormComponent {
   }
 
   ngOnInit(): void {
-    this.onLangChange();
+    this.onLangChange('es');
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.onLangChange();
+      this.onLangChange(event.lang);
     });
-
     this.contactForm.get('valid')?.valueChanges.subscribe(value => {
       console.log('Checkbox cambiado, valor del formulario:', this.contactForm.value);
     });
   }
 
-  onLangChange() {
+  onLangChange(lang: string) {
+    this.titleService.setTitle(lang === 'es' ? 'Envianos un Mensaje | Contact Front' : 'Send Us A Message | Contact Front')
     this.translate.get(['CONTACT']).subscribe((data: any) => {
       this.translateJson = data;
       let ale = this.translateJson['CONTACT'].ALERTS;

@@ -32,7 +32,7 @@ export class ContactPageComponent {
   }
 
   ngOnInit() {
-    this.titleService.setTitle(this.activeLang === 'es' ? 'Envianos un Mensaje | Contact Front' : 'Send Us A Message | Contact Front')
+    // this.titleService.setTitle(this.activeLang === 'es' ? 'Envianos un Mensaje | Contact Front' : 'Send Us A Message | Contact Front')
     // this.meta.updateTag({ property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/cancun-center.appspot.com/o/logo.png?alt=media&token=1fbabb31-bf74-4692-ac41-5f97c1eda824' });
     // this.meta.updateTag({ name: 'description', content: 'Estamos aquí para ayudarte y responder a cualquier consulta que puedas tener.' });
     // this.meta.updateTag({ name: 'keywords', content: 'cancun, center, hoteles, convenciones, mundial, eventos, conferencias, exposiciones' });
