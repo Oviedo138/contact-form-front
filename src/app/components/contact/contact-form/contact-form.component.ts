@@ -46,10 +46,10 @@ export class ContactFormComponent {
     private recaptchaV3Service: ReCaptchaV3Service,
   ) {
     this.contactForm = this.formBuilder.group({
-      name: ['Prurbas', Validators.required],
+      name: ['Pruebitas', Validators.required],
       email: ['mail@mail.com', [Validators.pattern('^[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\\.[a-z]{2,6}$')]],
       phone: ['9987878787', Validators.required],
-      agree: [false, Validators.required],
+      agree: [true, Validators.required],
       message: ['Mensajito de pruebas'],
     });
   }
