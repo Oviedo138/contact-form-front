@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  URL_API: "http://localhost:8080/api",
-  // URL_API: "http://mywebsite.com/",
+  URL_API: "http://24.199.88.86/api",
+  // URL_API: "http://localhost:8080/api",
 };
 
 /*
